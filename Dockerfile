@@ -5,8 +5,8 @@ COPY ./copy-files .
 
 RUN apt update
 RUN apt dist-upgrade -y
-RUN apt upgrade -y 
-RUN apt install kali-tools-web -y 
+RUN apt upgrade -y  
+RUN apt install kali-tools-top10 -y
 RUN apt autoremove
 RUN apt clean
 RUN apt autoclean
