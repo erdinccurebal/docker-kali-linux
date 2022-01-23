@@ -1,7 +1,7 @@
 FROM kalilinux/kali-rolling
 MAINTAINER erdinccurebal@hotmail.com
 WORKDIR ~
-COPY ./copy-files .
+COPY ./files ./files
 
 RUN apt update
 RUN apt dist-upgrade -y
