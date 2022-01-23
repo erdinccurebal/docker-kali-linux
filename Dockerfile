@@ -10,5 +10,4 @@ RUN apt autoremove
 RUN apt clean
 RUN apt autoclean
 
-EXPOSE 80
 CMD ["/bin/bash"]
