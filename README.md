@@ -18,7 +18,7 @@ bash start.sh
 
 ## Stop
 ```
-bash Stop.sh
+bash stop.sh
 ```
 
 ## Uninstallation
